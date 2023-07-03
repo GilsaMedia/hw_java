@@ -107,7 +107,6 @@ public class homework {
             System.out.println();
         }
 
-        System.out.println("meow");
         }
     }
 
