@@ -87,25 +87,27 @@ public class homework {
 //            }
 //            System.out.println();
 //        }
-        int lenght = scan.nextInt();
-        for (int i = 0; i < lenght  ; i++) {
-            for (int g = 0; g < i; g++) {
-                System.out.print(" ");
-            }
-            for(int j = lenght; j <= 0; j--) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
-        for (int i = lenght -1 ; i >= 0; i--) {
-            for (int g = i; g > 0; g--) {
-                System.out.print(" ");
-            }
-            for(int j = lenght - i +1; j <= 0; j--) {
-                System.out.print("* ");
-            }
-            System.out.println();
-        }
+//        int lenght = scan.nextInt();
+//        for (int i = 0; i < lenght  ; i++) {
+//            for (int g = 0; g < i; g++) {
+//                System.out.print(" ");
+//            }
+//            for(int j = lenght - i -1; j >= 0; j--) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+//        lenght -= 1;
+//        for (int i = lenght -1 ; i >= 0; i--) {
+//            for (int g = i ; g > 0; g--) {
+//                System.out.print(" ");
+//            }
+//            for(int j = lenght - i +1; j != 0; j--) {
+//                System.out.print("* ");
+//            }
+//            System.out.println();
+//        }
+
         }
     }
 
