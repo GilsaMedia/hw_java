@@ -1,18 +1,3 @@
-//import java.util.Scanner; // Import the Scanner class
-//
-//public class EX_1 {
-//    public static void main(String[] args) {
-//        //installation of the scanner the methode for getting the input from the user
-//        Scanner scan = new Scanner(System.in); // Create a Scanner object
-//        /*
-//        using example getting int.
-//        in order to get other type go to:
-//        https://www.w3schools.com/java/java_user_input.asp
-//        and fid the table with tha other option
-//        */
-//        int a = scan.nextInt();// Read user input
-//        System.out.println(a);// Output user input
-//    }
 import java.util.Scanner; // Import the Scanner class
 
 public class homework {
@@ -107,8 +92,26 @@ public class homework {
 //            }
 //            System.out.println();
 //        }
-p
-        }
+//
+//        int[] arr1 = {10, 6 , 20 , 7 , 98};
+//
+//        int[] arr2 = {1, 5, 20, 50, 100};
+//
+//        boolean b = sorted.sorted_or_not(arr2);
+//        System.out.println(b);
+//
+//        double round_about = scan.nextDouble();
+//        long num = sorted.round1(round_about);
+//        System.out.println(num);
+//
+//        int[] arr = {5, 56, -1000, -467, -30, -50, 3774, 47, -46,47};
+//        boolean v = sorted.pos_or_neg(arr);
+//        System.out.println(v);
+//
+        int[] arr = {2, 54, 100, 3, 4, 89, 32, 324};
+        int g = sorted.biggest2(arr);
+        System.out.println(g);
     }
+}
 
 
