@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class sorted {
-        //    public static boolean sorted_or_not(int[] arr2) {
+    //    public static boolean sorted_or_not(int[] arr2) {
 //        for (int i = 0; i< arr2.length; i++){
 //            if (arr2[i] <= arr2[i+1]) {
 //                return true;
@@ -36,17 +36,15 @@ public class sorted {
 //        return num;
 //    }
 //    mission number 5 ^^^^
-        public static boolean isSortedUp(int[] arr, int start, int end) {
-            int startLoc = new Random().nextInt(arr.length);
-            start = arr[startLoc];
-            System.out.println(arr[startLoc]);
-            int endLoc = new Random().nextInt(startLoc + 1, arr.length);
-            end = arr[endLoc];
-            System.out.println(arr[endLoc]);
-
+    public static boolean isSortedUp(int[] arr, int start, int end) {
+        if (start < 0 || start < end && start > arr.length || end > arr.length) {
+            return false;
+        } else {
+            arr[start] = start;
+            arr[end] = end;
             for (int i = 0; i < arr.length; i++) {
                 if (arr[i] == start) {
-                    for (i = startLoc; i < arr.length; i++) {
+                    for (i = arr[start]; i < arr.length; i++) {
                         if (arr[i] <= arr[i + 1]) {
                             if (arr[i] == end) {
                                 return true;
@@ -57,8 +55,9 @@ public class sorted {
                     }
                 }
             }
-            return false;
         }
+        return false;
+    }
 
 //    public static boolean mostPositive(int arr[]) {
 //    public static boolean pos_or_neg(int arr[]) {

@@ -112,13 +112,13 @@ public class homework {
 //        int g = sorted.biggest2(arr);
 //        System.out.println(g);
 //
-        int start = 0;
-        int end = -5;
+        int start = scan.nextInt();
+        int end = scan.nextInt();
 
 
-//        int[] arr = {6, 20, 7, 98, 100, 43, 53, 12, 70, 23, 67, 93, 62, 10, 3, 17, 45, 26, 71, 21};
+        int[] arr = {6, 20, 7, 98, 100, 43, 53, 12, 70, 23, 67, 93, 62, 10, 3, 17, 45, 26, 71, 21};
 
-        int[] arr = {1, 5, 20, 50, 100, 123, 159, 193, 206, 237, 285, 300, 327, 391, 409, 469};
+//        int[] arr = {1, 5, 20, 50, 100, 123, 159, 193, 206, 237, 285, 300, 327, 391, 409, 469};
 
         boolean b = sorted.isSortedUp(arr, start, end);
         System.out.println(b);
