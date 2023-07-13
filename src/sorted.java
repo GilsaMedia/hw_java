@@ -37,7 +37,7 @@ public class sorted {
 //    }
 //    mission number 5 ^^^^
     public static boolean isSortedUp(int[] arr, int start, int end) {
-        if (start < 0 || start < end && start > arr.length || end > arr.length) {
+        if (start < 0 || start > end && start > arr.length || end > arr.length) {
             return false;
         } else {
             arr[start] = start;
