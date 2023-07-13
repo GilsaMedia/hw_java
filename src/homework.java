@@ -1,18 +1,3 @@
-//import java.util.Scanner; // Import the Scanner class
-//
-//public class EX_1 {
-//    public static void main(String[] args) {
-//        //installation of the scanner the methode for getting the input from the user
-//        Scanner scan = new Scanner(System.in); // Create a Scanner object
-//        /*
-//        using example getting int.
-//        in order to get other type go to:
-//        https://www.w3schools.com/java/java_user_input.asp
-//        and fid the table with tha other option
-//        */
-//        int a = scan.nextInt();// Read user input
-//        System.out.println(a);// Output user input
-//    }
 import java.util.Scanner; // Import the Scanner class
 
 public class homework {
@@ -107,8 +92,36 @@ public class homework {
 //            }
 //            System.out.println();
 //        }
-
-        }
+//
+//        int[] arr1 = {10, 6 , 20 , 7 , 98};
+//
+//        int[] arr2 = {1, 5, 20, 50, 100};
+//
+//        boolean b = sorted.isSorted(arr2);
+//        System.out.println(b);
+//
+//        double d = scan.nextDouble();
+//        long num = sorted.round(d);
+//        System.out.println(num);
+//
+//        int[] arr = {5, 56, -1000, -467, -30, -50, 3774, 47, -46,47};
+//        boolean v = sorted.mostPositive(arr);
+//        System.out.println(v);
+//
+//        int[] arr = {2, 54, 100, 3, 4, 89, 32, 324};
+//        int g = sorted.biggest2(arr);
+//        System.out.println(g);
+//
+//        int start = 0;
+//        int end = -5;
+//
+//
+//        int[] arr = {6, 20, 7, 98, 100, 43, 53, 12, 70, 23, 67, 93, 62, 10, 3, 17, 45, 26, 71, 21};
+//
+//        int[] arr = {1, 5, 20, 50, 100, 123, 159, 193, 206, 237, 285, 300, 327, 391, 409, 469};
+//
+//        boolean b = sorted.isSortedUp(arr, start, end);
+//        System.out.println(b);
+//
     }
-
-
+}
