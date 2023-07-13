@@ -97,8 +97,32 @@ public class homework {
 //
 //        int[] arr2 = {1, 5, 20, 50, 100};
 //
-//        boolean b = sorted.sorted_or_not(arr2);
+//        boolean b = sorted.isSorted(arr2);
 //        System.out.println(b);
+//
+//        double d = scan.nextDouble();
+//        long num = sorted.round(d);
+//        System.out.println(num);
+//
+//        int[] arr = {5, 56, -1000, -467, -30, -50, 3774, 47, -46,47};
+//        boolean v = sorted.mostPositive(arr);
+//        System.out.println(v);
+//
+//        int[] arr = {2, 54, 100, 3, 4, 89, 32, 324};
+//        int g = sorted.biggest2(arr);
+//        System.out.println(g);
+//
+        int start = 0;
+        int end = -5;
+
+
+//        int[] arr = {6, 20, 7, 98, 100, 43, 53, 12, 70, 23, 67, 93, 62, 10, 3, 17, 45, 26, 71, 21};
+
+        int[] arr = {1, 5, 20, 50, 100, 123, 159, 193, 206, 237, 285, 300, 327, 391, 409, 469};
+
+        boolean b = sorted.isSortedUp(arr, start, end);
+        System.out.println(b);
+
 //
 //        double round_about = scan.nextDouble();
 //        long num = sorted.round1(round_about);
@@ -108,9 +132,9 @@ public class homework {
 //        boolean v = sorted.pos_or_neg(arr);
 //        System.out.println(v);
 //
-        int[] arr = {2, 54, 100, 3, 4, 89, 32, 324};
-        int g = sorted.biggest2(arr);
-        System.out.println(g);
+//        int[] arr = {2, 54, 100, 3, 4, 89, 32, 324};
+//        int g = sorted.biggest2(arr);
+//        System.out.println(g);
     }
 }
 
