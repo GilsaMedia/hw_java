@@ -1,15 +1,14 @@
-import java.util.Random;
-
 public class sorted {
-    //    public static boolean sorted_or_not(int[] arr2) {
-//        for (int i = 0; i< arr2.length; i++){
-//            if (arr2[i] <= arr2[i+1]) {
-//                return true;
-//            }
-//        }
-//        return false;
-//    }
-//    mission 1 ^^^^
+    public static boolean sorted_or_not(int[] arr_start) {
+        for (int i = 0; i < arr_start.length; i++) {
+            if (arr_start[i] <= arr_start[i + 1]) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    //    mission 1 ^^^^
 //
 //    public static round(double d) {
 //        long num = 0;
@@ -22,7 +21,7 @@ public class sorted {
 //        }
 //        return false;
 //    }
-//    mission 1 and 6 ^^^^
+//    mission 1
 //
 //    public static long round1(double round_about) {
 //        long num = 0;
@@ -39,25 +38,22 @@ public class sorted {
     public static boolean isSortedUp(int[] arr, int start, int end) {
         if (start < 0 || start > end && start > arr.length || end > arr.length) {
             return false;
-        } else {
-            arr[start] = start;
-            arr[end] = end;
-            for (int i = 0; i < arr.length; i++) {
-                if (arr[i] == start) {
-                    for (i = arr[start]; i < arr.length; i++) {
-                        if (arr[i] <= arr[i + 1]) {
-                            if (arr[i] == end) {
-                                return true;
-                            }
-                        } else {
-                            return false;
-                        }
-                    }
+        }
+        else {
+            int arr_length1 = (end - start + 1);
+            int h = 0;
+            int[] arr_start = new int[arr_length1];
+            for (int j = start; j < end; j++) {
+                while (h <= arr_length1) {
+                    arr_start[h] = arr[j];
+                    h += 1;
+                    break;
                 }
             }
+                return sorted_or_not(arr_start);
         }
-        return false;
     }
+}
 
 //    public static boolean mostPositive(int arr[]) {
 //    public static boolean pos_or_neg(int arr[]) {

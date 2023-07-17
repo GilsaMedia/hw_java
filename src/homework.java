@@ -112,9 +112,10 @@ public class homework {
 //        int g = sorted.biggest2(arr);
 //        System.out.println(g);
 //
+        System.out.println("give me a start index ");
         int start = scan.nextInt();
+        System.out.println("give me an higher end index");
         int end = scan.nextInt();
-
 
         int[] arr = {6, 20, 7, 98, 100, 43, 53, 12, 70, 23, 67, 93, 62, 10, 3, 17, 45, 26, 71, 21};
 
