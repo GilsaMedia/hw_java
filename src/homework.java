@@ -112,18 +112,17 @@ public class homework {
 //        int g = sorted.biggest2(arr);
 //        System.out.println(g);
 //
-        System.out.println("give me a start index ");
-        int start = scan.nextInt();
-        System.out.println("give me an higher end index");
-        int end = scan.nextInt();
-
-        int[] arr = {6, 20, 7, 98, 100, 43, 53, 12, 70, 23, 67, 93, 62, 10, 3, 17, 45, 26, 71, 21};
-
+//        System.out.println("give me a start index ");
+//        int start = scan.nextInt();
+//        System.out.println("give me an higher end index");
+//        int end = scan.nextInt();
+//
+//        int[] arr = {6, 20, 7, 98, 100, 43, 53, 12, 70, 23, 67, 93, 62, 10, 3, 17, 45, 26, 71, 21};
+//
 //        int[] arr = {1, 5, 20, 50, 100, 123, 159, 193, 206, 237, 285, 300, 327, 391, 409, 469};
-
-        boolean b = sorted.isSortedUp(arr, start, end);
-        System.out.println(b);
-
+//
+//        boolean b = sorted.isSortedUp(arr, start, end);
+//        System.out.println(b);
 //
 //        double round_about = scan.nextDouble();
 //        long num = sorted.round1(round_about);
@@ -136,6 +135,23 @@ public class homework {
 //        int[] arr = {2, 54, 100, 3, 4, 89, 32, 324};
 //        int g = sorted.biggest2(arr);
 //        System.out.println(g);
+//
+//        System.out.println("put a word");
+//        String str1 = scan.nextLine();
+//
+//        System.out.println("put another word");
+//        String str2 = scan.nextLine();
+//
+//        String pout = sorted.equal_or_not(str1, str2);
+//        System.out.println(pout);
+//
+//        System.out.println("put a word");
+//        String str1 = scan.nextLine();
+//
+//        boolean sorted_or_not = sorted.sorted_or_not_2(str1);
+//        System.out.println(sorted_or_not);
+
+
     }
 }
 
