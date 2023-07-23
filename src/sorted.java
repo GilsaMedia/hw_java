@@ -1,5 +1,5 @@
 public class sorted {
-//    public static boolean sorted_or_not(int[] arr_start) {
+    //    public static boolean sorted_or_not(int[] arr_start) {
 //        for (int i = 0; i < arr_start.length; i++) {
 //            if (arr_start[i] <= arr_start[i + 1]) {
 //                return true;
@@ -113,4 +113,26 @@ public class sorted {
 //        }
 //        return false;
 //    }
+    public static boolean rowSorted(int[][] mat) {
+        int i;
+        int biggerthen = 0;
+        for (i = 0; i < mat.length; i++) {
+            for (int j = 0; j < mat[i].length; j++) {
+                if (mat[i][j] > biggerthen) {
+                    biggerthen = mat[i][j];
+                } else if (i == mat.length - 1) {
+                    break;
+                } else {
+                    break;
+                }
+            }
+            biggerthen = 0;
+            i++;
+        }
+        if (i == mat.length - 1) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
