@@ -115,20 +115,27 @@ public class sorted {
 //    }
     public static boolean rowSorted(int[][] mat) {
         int i;
+        int j;
         int biggerthen = 0;
         for (i = 0; i < mat.length; i++) {
-            for (int j = 0; j < mat[i].length; j++) {
+            for (j = 0; j < mat[i].length; j++) {
                 if (mat[i][j] > biggerthen) {
                     biggerthen = mat[i][j];
-                } else if (i == mat.length - 1) {
-                    break;
                 } else {
                     break;
                 }
             }
-            biggerthen = 0;
-            i++;
+            System.out.println(i);
+            System.out.println(j);
+            if (mat[i][j] < biggerthen) {
+                break;
+            } else {
+                biggerthen = 0;
+                i++;
+            }
         }
+        System.out.println(i);
+        System.out.println(mat.length - 1);
         if (i == mat.length - 1) {
             return true;
         } else {

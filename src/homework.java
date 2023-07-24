@@ -154,6 +154,9 @@ public class homework {
         int[][] mat = {{34, 432, 666, 2544, 3000},
                         {4, 232, 234, 300, 301, 456},
                         {1, 54, 100, 345, 5677}};
+//        int[][] mat = {{654, 3, 85, 2},
+//                        {47, 2, 3467, 33,78},
+//                        {23,3,46,7,2,4,58}};
         boolean b = sorted.rowSorted(mat);
         System.out.println(b);
 
