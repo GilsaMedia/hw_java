@@ -1,7 +1,9 @@
+import java.security.PublicKey;
+
 public class sorted {
-    //    public static boolean sorted_or_not(int[] arr_start) {
-//        for (int i = 0; i < arr_start.length; i++) {
-//            if (arr_start[i] <= arr_start[i + 1]) {
+//    public static boolean sorted_or_not(int[] mat) {
+//        for (int i = 0; i < mat.length; i++) {
+//            if (mat[i] <= mat[i + 1]) {
 //                return true;
 //            }
 //        }
@@ -113,33 +115,59 @@ public class sorted {
 //        }
 //        return false;
 //    }
-    public static boolean rowSorted(int[][] mat) {
-        int i;
-        int j;
-        int biggerthen = 0;
-        for (i = 0; i < mat.length; i++) {
-            for (j = 0; j < mat[i].length; j++) {
-                if (mat[i][j] > biggerthen) {
-                    biggerthen = mat[i][j];
-                } else {
-                    break;
-                }
-            }
-            System.out.println(i);
-            System.out.println(j);
-            if (mat[i][j] < biggerthen) {
-                break;
-            } else {
-                biggerthen = 0;
-                i++;
-            }
-        }
-        System.out.println(i);
-        System.out.println(mat.length - 1);
-        if (i == mat.length - 1) {
-            return true;
-        } else {
-            return false;
-        }
-    }
+//
+//    public static boolean rowSorted(int[][] mat) {
+//        int j;
+//        for (j = 0; j < mat.length;) {
+//            boolean b = sorted_or_not(mat[j]);
+//            if (b) {
+//                j++;
+//            }
+//            else {break;}
+//        }
+//        System.out.println(j);
+//        System.out.println(mat.length);
+//        System.out.println(j == (mat.length-1));
+//        return j == (mat.length - 1);
+//    }
+//
+//    public static String backwards(String input) {
+//        char letter = ' ';
+//        String Backwards = "";
+//        for (int i = 0; i < input.length(); i++) {
+//            letter = input.charAt(input.length()-i);
+//            Backwards += letter;
+//        }
+//        return Backwards;
+//    }
+//
+//    public static int howMuch(String line) {
+//        char linechar = line.charAt(0);
+//        int howmuch = 0;
+//        for (int i = 0; i < line.length(); i++) {
+//            if (line.charAt(i) == linechar) {
+//                howmuch++;
+//            }
+//        }
+//        return howmuch;
+//    }
+//
+//    public static int Words(String line) {
+//        int howMuchWords = 0;
+//        for (int i = 0; i < line.length(); i++) {
+//            if (line.charAt(i) == ' ') {
+//                howMuchWords += 1;
+//            }
+//        }
+//        if (line.charAt(0) == ' ') {
+//            howMuchWords += 1;
+//        } else if (line.charAt(line.length()-1) != ' ') {
+//            howMuchWords += 1;
+//        }
+//        return howMuchWords;
+//    }
+//    public static String litleWord(String line) {
+//        String line2 = line.toLowerCase();
+//        return line2;
+//    }
 }
