@@ -178,6 +178,12 @@ public class homework {
 //
 //        String b = sorted.litleWord(line);
 //        System.out.println(b);
+//
+//        System.out.println("give 3 letters");
+//        String line = scan.nextLine();
+//
+//        String b = sorted.ABC(line);
+//        System.out.println(b);
     }
 }
 

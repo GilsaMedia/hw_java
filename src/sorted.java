@@ -1,7 +1,7 @@
 import java.security.PublicKey;
 
 public class sorted {
-//    public static boolean sorted_or_not(int[] mat) {
+    //    public static boolean sorted_or_not(int[] mat) {
 //        for (int i = 0; i < mat.length; i++) {
 //            if (mat[i] <= mat[i + 1]) {
 //                return true;
@@ -168,6 +168,21 @@ public class sorted {
 //    }
 //    public static String litleWord(String line) {
 //        String line2 = line.toLowerCase();
+//        return line2;
+//    }
+//    public static String ABC(String line) {
+//        char[] arr = new char[3];
+//        String line2 = "";
+//        for (int i = 0; i < arr.length; i++) {
+//            arr[i] = line.charAt(i);
+//        }
+//        line2 = Arrays.toString(arr);
+//        line2 = line2.toLowerCase();
+//        for (int i = 0; i < line2.length(); i++) {
+//            if (line.charAt(i) == line2.charAt(i)) {
+//
+//            }
+//        }
 //        return line2;
 //    }
 }
