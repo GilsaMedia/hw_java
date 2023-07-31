@@ -167,6 +167,7 @@ public class sorted {
 //        }
 //        return howMuchWords;
 //    }
+//
 //    public static String litleWord(String line) {
 //        String line2 = line.toLowerCase();
 //        return line2;
@@ -186,6 +187,7 @@ public class sorted {
 //        }
 //        return line2;
 //    }
+//
 //    public static int caculator(int num1, int num2, String action) {
 //        int end = 0;
 //        switch (action) {
@@ -207,24 +209,31 @@ public class sorted {
 //        }
 //        return end;
 //    }
-//    public static boolean phromatiz(String line1, String line2) {
-//        String line1copy1 = line1;
-//        String line1copy2 = line1copy1;
-//        for (int i = 0; i < line2.length(); i++) {
-//            for (int j = 0; j < line2.length(); j++) {
-//                if (line2.charAt(i) == line1copy1.charAt(j)) {
-//                    for (int h = 0; h < line1copy1.length(); h++) {
-//                        if (h == j) {
 //
-//                        } else {
-//                            line1copy2 += line1copy1.charAt(h);
-//                        }
-//                    }
-//                } else if (line1copy1.length() - 1 == j) {
+//    public static boolean phoromztiz(String line1, String line2) {
+//        int i;
+//        int j;
+//        char[] line2copy1 = new char[line2.length()];
+//        for (i = 0; i < line2.length(); i++) {
+//            line2copy1[i] += line2.charAt(i);
+//        }
+//        for (i = 0; i < line1.length(); i++) {
+//            for (j = 0; j < line2copy1.length; j++) {
+//                if (line1.charAt(i) == line2copy1[j]) {
+//                    line2copy1[j] = ' ';
+//                } else if (i == line2copy1.length-1) {
 //                    break;
 //                }
 //            }
+//            if (i == line2copy1.length-1) {
+//                break;
+//            }
 //        }
-//        return ;
+//        for (int h = 0; h < line2copy1.length; h++) {
+//            if (line2copy1[h] != ' ') {
+//                return false;
+//            }
+//        }
+//        return true;
 //    }
 }
