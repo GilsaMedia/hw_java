@@ -186,4 +186,45 @@ public class sorted {
 //        }
 //        return line2;
 //    }
+//    public static int caculator(int num1, int num2, String action) {
+//        int end = 0;
+//        switch (action) {
+//            case "%":
+//                end = num1%num2;
+//                break;
+//            case "/":
+//                end = num1/num2;
+//                break;
+//            case "*":
+//                end = num1*num2;
+//                break;
+//            case "-":
+//                end = num1-num2;
+//                break;
+//            case "+":
+//                end = num1+num2;
+//                break;
+//        }
+//        return end;
+//    }
+//    public static boolean phromatiz(String line1, String line2) {
+//        String line1copy1 = line1;
+//        String line1copy2 = line1copy1;
+//        for (int i = 0; i < line2.length(); i++) {
+//            for (int j = 0; j < line2.length(); j++) {
+//                if (line2.charAt(i) == line1copy1.charAt(j)) {
+//                    for (int h = 0; h < line1copy1.length(); h++) {
+//                        if (h == j) {
+//
+//                        } else {
+//                            line1copy2 += line1copy1.charAt(h);
+//                        }
+//                    }
+//                } else if (line1copy1.length() - 1 == j) {
+//                    break;
+//                }
+//            }
+//        }
+//        return ;
+//    }
 }

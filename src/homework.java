@@ -184,6 +184,13 @@ public class homework {
 //
 //        String b = sorted.ABC(line);
 //        System.out.println(b);
+//        String action = scan.nextLine();
+//        int num1 = scan.nextInt();
+//        int num2 = scan.nextInt();
+//
+//        int b = sorted.caculator(num1, num2, action);
+//
+//        System.out.println(num1+(action)+num2+"="+b);
     }
 }
 
