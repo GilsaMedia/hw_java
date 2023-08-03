@@ -2,10 +2,13 @@ import java.security.PublicKey;
 import java.util.Arrays;
 
 public class sorted {
-    //    public static boolean sorted_or_not(int[] mat) {
+//    public static boolean sorted_or_not(int[] mat) {
 //        for (int i = 0; i < mat.length; i++) {
 //            if (mat[i] <= mat[i + 1]) {
 //                return true;
+//            }
+//            else {
+//                break;
 //            }
 //        }
 //        return false;
@@ -56,7 +59,6 @@ public class sorted {
 //                return sorted_or_not(arr_start);
 //        }
 //    }
-//    public static boolean mostPositive(int arr[]) {
 //    public static boolean pos_or_neg(int arr[]) {
 //        int pos_count = 0;
 //        for (int i = 0; i < arr.length; i++) {
@@ -123,14 +125,16 @@ public class sorted {
 //            boolean b = sorted_or_not(mat[j]);
 //            if (b) {
 //                j++;
+//            } else {
+//                break;
 //            }
-//            else {break;}
 //        }
-//        System.out.println(j);
-//        System.out.println(mat.length);
-//        System.out.println(j == (mat.length-1));
-//        return j == (mat.length - 1);
+//        return j == (mat.length);
 //    }
+    public static boolean arrSorted(int [][]mat) {
+        int j;
+        for ()
+    }
 //
 //    public static String backwards(String input) {
 //        char letter = ' ';

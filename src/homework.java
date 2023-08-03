@@ -150,7 +150,7 @@ public class homework {
 //
 //        boolean sorted_or_not = sorted.sorted_or_not_2(str1);
 //        System.out.println(sorted_or_not);
-
+//
 //        int[][] mat = {{34, 432, 666, 2544, 3000},
 //                        {4, 232, 234, 300, 301, 456},
 //                        {1, 54, 100, 345, 5677}};
@@ -159,6 +159,11 @@ public class homework {
 //                        {23,3,46,7,2,4,58}};
 //        boolean b = sorted.rowSorted(mat);
 //        System.out.println(b);
+
+
+
+
+
 //
 //        String input = scan.nextLine();
 //
