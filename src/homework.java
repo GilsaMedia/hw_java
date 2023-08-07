@@ -159,11 +159,6 @@ public class homework {
 //                        {23,3,46,7,2,4,58}};
 //        boolean b = sorted.rowSorted(mat);
 //        System.out.println(b);
-
-
-
-
-
 //
 //        String input = scan.nextLine();
 //
@@ -189,6 +184,7 @@ public class homework {
 //
 //        String b = sorted.ABC(line);
 //        System.out.println(b);
+//
 //        String action = scan.nextLine();
 //        int num1 = scan.nextInt();
 //        int num2 = scan.nextInt();
@@ -197,11 +193,11 @@ public class homework {
 //
 //        System.out.println(num1+(action)+num2+"="+b);
 //
-//        String line1 = scan.nextLine();
-//        String line2 = scan.nextLine();
-//
-//        boolean b = sorted.phoromztiz(line1, line2);
-//        System.out.println(b);
+        String line1 = scan.nextLine();
+        String line2 = scan.nextLine();
+
+        boolean b = sorted.phoromztiz(line1, line2);
+        System.out.println(b);
     }
 }
 

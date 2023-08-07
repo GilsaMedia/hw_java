@@ -99,8 +99,8 @@ public class sorted {
 //    }
 //    mission 8 ^^^^
 //
-//    public static String equal_or_not(String str1, String str2) {
-//        if (str1.contentEquals(str2) || str2.contentEquals(str1)) {
+//    public staing tic Strequal_or_not(String str1, String str2) {
+//        if (str1.contentEquals(str2)) {
 //            return "The strings are equal";
 //        }
 //        return "The strings are not equal";
@@ -110,6 +110,7 @@ public class sorted {
 //        char letter = ' ';
 //        String str2 = "";
 //        for (int i = 0; i < str1.length(); i++) {
+
 //            letter = str1.charAt(str1.length()-1-i);
 //            str2 += letter;
 //        }
@@ -122,8 +123,7 @@ public class sorted {
 //    public static boolean rowSorted(int[][] mat) {
 //        int j;
 //        for (j = 0; j < mat.length;) {
-//            boolean b = sorted_or_not(mat[j]);
-//            if (b) {
+//            if (sorted_or_not(mat[j]);) {
 //                j++;
 //            } else {
 //                break;
@@ -131,10 +131,10 @@ public class sorted {
 //        }
 //        return j == (mat.length);
 //    }
-    public static boolean arrSorted(int [][]mat) {
-        int j;
-        for ()
-    }
+//    public static boolean arrSorted(int [][]mat) {
+//        int j;
+//        for ()
+//    }
 //
 //    public static String backwards(String input) {
 //        char letter = ' ';
@@ -148,13 +148,13 @@ public class sorted {
 //
 //    public static int howMuch(String line) {
 //        char linechar = line.charAt(0);
-//        int howmuch = 0;
+//        int cunter = 0;
 //        for (int i = 0; i < line.length(); i++) {
 //            if (line.charAt(i) == linechar) {
-//                howmuch++;
+//                cunter++;
 //            }
 //        }
-//        return howmuch;
+//        return cunter;
 //    }
 //
 //    public static int Words(String line) {
@@ -191,7 +191,7 @@ public class sorted {
 //        }
 //        return line2;
 //    }
-//
+
 //    public static int caculator(int num1, int num2, String action) {
 //        int end = 0;
 //        switch (action) {
@@ -213,31 +213,14 @@ public class sorted {
 //        }
 //        return end;
 //    }
-//
-//    public static boolean phoromztiz(String line1, String line2) {
-//        int i;
-//        int j;
-//        char[] line2copy1 = new char[line2.length()];
-//        for (i = 0; i < line2.length(); i++) {
-//            line2copy1[i] += line2.charAt(i);
-//        }
-//        for (i = 0; i < line1.length(); i++) {
-//            for (j = 0; j < line2copy1.length; j++) {
-//                if (line1.charAt(i) == line2copy1[j]) {
-//                    line2copy1[j] = ' ';
-//                } else if (i == line2copy1.length-1) {
-//                    break;
-//                }
-//            }
-//            if (i == line2copy1.length-1) {
-//                break;
-//            }
-//        }
-//        for (int h = 0; h < line2copy1.length; h++) {
-//            if (line2copy1[h] != ' ') {
-//                return false;
-//            }
-//        }
-//        return true;
-//    }
+
+    public static boolean phoromztiz(String line1, String line2) {
+        int i;
+        if (line1.length() != line2.length()) {
+            return false;
+        }
+        char[] line1chararr = new char[line1.length()];
+        line1 = line1.toCharArray(line1chararr);
+        return true;
+    }
 }
