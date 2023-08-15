@@ -213,14 +213,14 @@ public class sorted {
 //        }
 //        return end;
 //    }
+//
+//    public static boolean phoromztiz(String line1, String line2) {
+//        int i;
+//        if (line1.length() != line2.length()) {
+//            return false;
+//        }
+//        char[] line1chararr = new char[line1.length()];
+//        return true;
+//    }
 
-    public static boolean phoromztiz(String line1, String line2) {
-        int i;
-        if (line1.length() != line2.length()) {
-            return false;
-        }
-        char[] line1chararr = new char[line1.length()];
-        line1 = line1.toCharArray(line1chararr);
-        return true;
-    }
 }

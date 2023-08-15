@@ -193,11 +193,13 @@ public class homework {
 //
 //        System.out.println(num1+(action)+num2+"="+b);
 //
-        String line1 = scan.nextLine();
-        String line2 = scan.nextLine();
+//        String line1 = scan.nextLine();
+//        String line2 = scan.nextLine();
+//
+//        boolean b = sorted.phoromztiz(line1, line2);
+//        System.out.println(b);
 
-        boolean b = sorted.phoromztiz(line1, line2);
-        System.out.println(b);
+
     }
 }
 
