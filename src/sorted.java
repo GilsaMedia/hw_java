@@ -222,5 +222,4 @@ public class sorted {
 //        char[] line1chararr = new char[line1.length()];
 //        return true;
 //    }
-
 }
