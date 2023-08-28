@@ -1,8 +1,12 @@
 package scholl;
 
+import java.util.Scanner;
+
 public class StudentClass {
+    Scanner scan = new Scanner(System.in);
     private char grade;
     private int number;
+    private Student student;
     private Teacher educator;
     private int numOfStudent = 0;
     private Student[] students = new Student[30];
@@ -14,9 +18,6 @@ public class StudentClass {
         this.numOfStudent = numOfStudent;
         this.students = students;
     }
+    
 
-    public Student numInClass(Student[] students) {
-        Student student = students[number];
-        return student;
-    }
 }

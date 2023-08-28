@@ -49,8 +49,9 @@ public class Student extends Person {
     public void setMath(int math) {
         this.math = math;
     }
+
     public float avrage() {
-        float avrage = (this.math+this.english+this.hebrew)/3;
+        float avrage = (this.math + this.english + this.hebrew) / 3;
         return avrage;
     }
 }
