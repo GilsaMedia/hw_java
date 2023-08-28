@@ -198,7 +198,19 @@ public class homework {
 //
 //        boolean b = sorted.phoromztiz(line1, line2);
 //        System.out.println(b);
-
+//
+//        int num = scan.nextInt();
+//
+//        int b = sorted.Factorial(num);
+//        System.out.println(b);
+//
+//        int denominator = scan.nextInt();
+//        int nubv = scan.nextInt();
+//        int b = sorted.dividingWholes(denominator, nubv);
+//        System.out.println(b);
+        int num = scan.nextInt();
+        boolean b = sorted.dividing(num);
+        System.out.println(b);
 
     }
 }

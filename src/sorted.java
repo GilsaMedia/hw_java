@@ -222,4 +222,34 @@ public class sorted {
 //        char[] line1chararr = new char[line1.length()];
 //        return true;
 //    }
+//
+//    public static int Factorial(int num) {
+//        if (num == 0) {
+//            return 1;
+//        }
+//        else {
+//            return num * Factorial(num-1);
+//        }
+//    }
+
+//    public static int dividingWholes(int denominator, int nubv) {
+//        if (denominator-nubv < 0) {
+//            return 0;
+//        }
+//        else {
+//            return 1 + dividingWholes(denominator - nubv, nubv);
+//        }
+//    }
+    public static boolean dividing(int num) {
+        if (num < 10) {
+            return num%2 == 0;
+        }
+        else {
+            int lastDigit = num%10;
+            int reminderNum = num/10;
+            boolean currentLastDigit = dividing(lastDigit);
+            boolean currentReminderNum = dividing(reminderNum);
+            return currentReminderNum == currentLastDigit;
+        }
+    }
 }
