@@ -232,7 +232,7 @@ public class sorted {
 //        }
 //    }
 
-//    public static int dividingWholes(int denominator, int nubv) {
+    //    public static int dividingWholes(int denominator, int nubv) {
 //        if (denominator-nubv < 0) {
 //            return 0;
 //        }
@@ -240,16 +240,30 @@ public class sorted {
 //            return 1 + dividingWholes(denominator - nubv, nubv);
 //        }
 //    }
-    public static boolean dividing(int num) {
-        if (num < 10) {
-            return num%2 == 0;
-        }
-        else {
-            int lastDigit = num%10;
-            int reminderNum = num/10;
-            boolean currentLastDigit = dividing(lastDigit);
-            boolean currentReminderNum = dividing(reminderNum);
-            return currentReminderNum == currentLastDigit;
-        }
-    }
+//
+//    public static boolean dividing(int num) {
+//        if (num < 10) {
+//            return num % 2 == 0;
+//        } else {
+//            int lastDigit = num % 10;
+//            int reminderNum = num / 10;
+//            boolean currentLastDigit = lastDigit % 2 == 0;
+//            boolean currentReminderNum = dividing(reminderNum);
+//            return currentReminderNum == currentLastDigit;
+//        }
+//    }
+//
+//    public static int evenOrOdd(int n) {
+//        if (n == 0) {
+//            return 0;
+//        }
+//        if (n%2 == 0) {
+//            return n*n + evenOrOdd(n-1);
+//        }
+//        else {
+//            return n*2 + evenOrOdd(n-1);
+//        }
+//    }
+
+
 }

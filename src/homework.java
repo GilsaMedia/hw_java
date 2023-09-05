@@ -208,9 +208,15 @@ public class homework {
 //        int nubv = scan.nextInt();
 //        int b = sorted.dividingWholes(denominator, nubv);
 //        System.out.println(b);
-        int num = scan.nextInt();
-        boolean b = sorted.dividing(num);
-        System.out.println(b);
+//
+//        int num = scan.nextInt();
+//        boolean b = sorted.dividing(num);
+//        System.out.println(b);
+//
+//        int num = scan.nextInt();
+//        int b = sorted.evenOrOdd(num);
+//        System.out.println(b);
+
 
     }
 }

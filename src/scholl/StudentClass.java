@@ -8,15 +8,19 @@ public class StudentClass {
     private int number;
     private Student student;
     private Teacher educator;
-    private int numOfStudent = 0;
     private Student[] students = new Student[30];
+    private int numOfStudent = students.length;
+
     public StudentClass(char grade, int number, Teacher educator, int numOfStudent, Student[] students) {
         this.grade = grade;
         this.number = number;
         this.educator = educator;
-        this.numOfStudent = numOfStudent;
         this.students = students;
     }
+
+//    public Student addStudent(Student student) {
+//        this.students[] = ;
+//    }
 
     public Student getStudentFromTheClass(Student[] students, int number) {
         this.student = students[number];
