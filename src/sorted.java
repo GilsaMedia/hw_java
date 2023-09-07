@@ -1,5 +1,7 @@
 import java.security.PublicKey;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class sorted {
 //    public static boolean sorted_or_not(int[] mat) {
@@ -264,6 +266,19 @@ public class sorted {
 //            return n*2 + evenOrOdd(n-1);
 //        }
 //    }
+//
+    public static int addingUp(int num) {
+        List<Integer> numList = new ArrayList<>();
+        int mainInt = 0;
+        for (char c: String.valueOf(num).toCharArray()) {
+            numList.add(Integer.valueOf(String.valueOf(c)));
+            mainInt += numList.get(Integer.parseInt(String.valueOf(c)));
+        }
+        if (mainInt >= 10) {
+            return addingUp(mainInt);
+        } else {
+            return 1;
+        }
 
-
+   }
 }
