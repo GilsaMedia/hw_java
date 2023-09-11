@@ -272,13 +272,13 @@ public class sorted {
         int mainInt = 0;
         for (char c: String.valueOf(num).toCharArray()) {
             numList.add(Integer.valueOf(String.valueOf(c)));
-            mainInt += numList.get(Integer.parseInt(String.valueOf(c)));
+            mainInt += Integer.parseInt(String.valueOf(c));
         }
-        if (mainInt >= 10) {
+        if (mainInt >= 10 ) {
             return addingUp(mainInt);
         } else {
-            return 1;
+            return mainInt;
         }
 
-   }
+    }
 }

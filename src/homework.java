@@ -217,7 +217,9 @@ public class homework {
 //        int b = sorted.evenOrOdd(num);
 //        System.out.println(b);
 
-        int b = sorted.addingUp(8863424);
+        System.out.println("give a number");
+        int num = scan.nextInt();
+        int b = sorted.addingUp(num);
         System.out.println(b);
     }
 }
