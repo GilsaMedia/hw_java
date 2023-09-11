@@ -216,11 +216,12 @@ public class homework {
 //        int num = scan.nextInt();
 //        int b = sorted.evenOrOdd(num);
 //        System.out.println(b);
+//
+//        System.out.println("give a number");
+//        int num = scan.nextInt();
+//        int b = sorted.addingUp(num);
+//        System.out.println(b);
 
-        System.out.println("give a number");
-        int num = scan.nextInt();
-        int b = sorted.addingUp(num);
-        System.out.println(b);
     }
 }
 

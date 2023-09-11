@@ -6,6 +6,7 @@ public class IntNode {
 
     public IntNode(int info) {
         this.info = info;
+        this.next = null;
     }
     public IntNode(int info, IntNode next) {
         this.info = info;
