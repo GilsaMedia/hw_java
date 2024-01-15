@@ -267,19 +267,20 @@ public class sorted {
 //        }
 //    }
 //
-    public static int addingUp(int num) {
-        List<Integer> numList = new ArrayList<>();
-        int mainInt = 0;
-        for (char c: String.valueOf(num).toCharArray()) {
-            numList.add(Integer.valueOf(String.valueOf(c)));
-            mainInt += Integer.parseInt(String.valueOf(c));
-        }
-        if (mainInt >= 10 ) {
-            return addingUp(mainInt);
-        } else {
-            return mainInt;
-        }
+//    public static int addingUp(int num) {
+//        List<Integer> numList = new ArrayList<>();
+//        int mainInt = 0;
+//        for (char c: String.valueOf(num).toCharArray()) {
+//            numList.add(Integer.valueOf(String.valueOf(c)));
+//            mainInt += Integer.parseInt(String.valueOf(c));
+//        }
+//        if (mainInt >= 10 ) {
+//            return addingUp(mainInt);
+//        } else {
+//            return mainInt;
+//        }
+//
+//    }
 
-    }
 
 }
