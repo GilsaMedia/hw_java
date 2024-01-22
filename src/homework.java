@@ -222,7 +222,6 @@ public class homework {
 //        int b = sorted.addingUp(num);
 //        System.out.println(b);
 
-
     }
 }
 

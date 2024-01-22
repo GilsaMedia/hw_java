@@ -6,21 +6,35 @@ public class IntList {
     public IntList() {
         this.first = null;
     }
-
     public IntNode getFirst() {
         return first;
     }
+    public IntNode getLast() {
+        if (first.getNext() == null) {
+            return first;
+        } else {
+            IntNode next = first.getNext();
+            while (next.getNext() != null) {
+                next = next.getNext();
+            }
+            return next;
+        }
+    }
 
     public IntNode instert(IntNode p, int info) {
-        IntNode q = new IntNode(info);
-        if (p.getNext() == null) {
-            p.setNext(q);
-            first = q;
-        } else {
-            q.setNext(p.getNext());
-            p.setNext(q);
-        }
-        return q;
+            IntNode q = new IntNode(info);
+            if (p == null) {
+                q.setNext(first);
+                first = q;
+            } else {
+                q.setNext(p.getNext());
+                p.setNext(q);
+            }
+            return q;
+    }
+
+    public IntNode add(int info) {
+        return this.instert(this.getLast(),info);
     }
 
     public IntNode remove(IntNode p) {
@@ -41,10 +55,13 @@ public class IntList {
         return first == null;
     }
 
-    @Override
-    public String toString() {
-        return "IntList{" +
-                "first=" + first +
-                '}';
+    public String toStringList() {
+        String listInfo = "";
+        IntNode p = first;
+        while (p.getNext() != null) {
+            listInfo += p.toString();
+            p = p.getNext();
+        }
+        return listInfo;
     }
 }
