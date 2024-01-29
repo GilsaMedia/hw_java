@@ -8,6 +8,7 @@ public class IntNode {
         this.info = info;
         this.next = null;
     }
+
     public IntNode(int info, IntNode next) {
         this.info = info;
         this.next = next;
@@ -24,6 +25,7 @@ public class IntNode {
     public void setInfo(int info) {
         this.info = info;
     }
+
 
     public void setNext(IntNode next) {
         this.next = next;

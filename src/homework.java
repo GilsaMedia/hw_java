@@ -221,7 +221,6 @@ public class homework {
 //        int num = scan.nextInt();
 //        int b = sorted.addingUp(num);
 //        System.out.println(b);
-
     }
 }
 

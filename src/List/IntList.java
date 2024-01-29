@@ -6,9 +6,11 @@ public class IntList {
     public IntList() {
         this.first = null;
     }
+
     public IntNode getFirst() {
         return first;
     }
+
     public IntNode getLast() {
         if (first.getNext() == null) {
             return first;
@@ -22,19 +24,27 @@ public class IntList {
     }
 
     public IntNode instert(IntNode p, int info) {
-            IntNode q = new IntNode(info);
-            if (p == null) {
-                q.setNext(first);
-                first = q;
-            } else {
-                q.setNext(p.getNext());
-                p.setNext(q);
-            }
-            return q;
+        IntNode q = new IntNode(info);
+        if (p == null) {
+            q.setNext(first);
+            first = q;
+        } else {
+            q.setNext(p.getNext());
+            p.setNext(q);
+        }
+        return q;
     }
 
+//    public IntNode find(int node) {
+//        IntNode p = this.getFirst();
+//        do {
+//            p = p.getNext();
+//        } while (p.getNext() != node);
+//        return p;
+//    }
+
     public IntNode add(int info) {
-        return this.instert(this.getLast(),info);
+        return this.instert(this.getLast(), info);
     }
 
     public IntNode remove(IntNode p) {
