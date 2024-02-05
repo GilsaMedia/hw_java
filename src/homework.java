@@ -1,4 +1,5 @@
-import java.util.Scanner; // Import the Scanner class
+import java.util.*;
+import java.util.Queue;
 
 public class homework {
     public static void main(String[] args) {
@@ -221,6 +222,11 @@ public class homework {
 //        int num = scan.nextInt();
 //        int b = sorted.addingUp(num);
 //        System.out.println(b);
+
+
+
+
+
     }
 }
 
