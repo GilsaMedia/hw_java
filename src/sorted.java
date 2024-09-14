@@ -1,7 +1,6 @@
 import java.security.PublicKey;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
+import java.util.Queue;
 
 public class sorted {
 //    public static boolean sorted_or_not(int[] mat) {
@@ -280,6 +279,25 @@ public class sorted {
 //            return mainInt;
 //        }
 //
+//    }
+//
+//    public static boolean inLine(int n, Queue<Integer> Q) {
+//        Q.add(-999);
+//        boolean returnThingy = false;
+//        if (Q.isEmpty()) {
+//            return false;
+//        } else {
+//            while (!(Q.peek() == -999)) {
+//                int x = Q.remove();
+//                if (x == n) {
+//                    returnThingy = true;
+//
+//                }
+//                Q.add(x);
+//            }
+//            Q.remove();
+//        }
+//        return returnThingy;
 //    }
 
 

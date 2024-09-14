@@ -222,10 +222,15 @@ public class homework {
 //        int num = scan.nextInt();
 //        int b = sorted.addingUp(num);
 //        System.out.println(b);
-
-
-
-
+//
+//        Queue<Integer> Q = new LinkedList<>();
+//        for (int i = 0; i < 10; i++) {
+//            Q.add(scan.nextInt());
+//        }
+//        System.out.println("what num is your number");
+//        int meow = scan.nextInt();
+//        System.out.println(sorted.inLine(meow, Q));
+//        System.out.println(Q.toString());
 
     }
 }
