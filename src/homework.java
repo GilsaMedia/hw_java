@@ -231,7 +231,33 @@ public class homework {
 //        int meow = scan.nextInt();
 //        System.out.println(sorted.inLine(meow, Q));
 //        System.out.println(Q.toString());
-
+/*school work ):*/
+//        System.out.print("Give a number between 0 and 9 ");
+//        int num1 = scan.nextInt();
+//        System.out.print("Give another number between 0 and 9 ");
+//        int num2 = scan.nextInt();
+//
+//        System.out.println("The first number is " + (num1*10) + (num2*10));
+//        System.out.println("The first number is " + (num2*10) + (num1*10));
+//        System.out.println("The third number is " + (num1 + num2));
+//
+//
+//        System.out.print("Give a num ");
+//        int ope = scan.nextInt();
+//        System.out.println("The opposite number is " + -(ope));
+//
+//        System.out.print("Give the length of the square ");
+//        int length = scan.nextInt();
+//        System.out.print("Give height of the square is ");
+//        int height = scan.nextInt();
+//
+//        System.out.println("The surface is " + (length*height));
+//        System.out.println("The scope is " + ((length*2) + (height*2)));
+//
+//        System.out.println("How much days does she work a month? ");
+//        int numDays = scan.nextInt();
+//
+//        System.out.println("The amount of money she needs to pay is  " + (numDays*4.30));
     }
 }
 
